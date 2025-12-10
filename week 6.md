@@ -1,6 +1,5 @@
 Week 6 — Binary Analysis & Symbolic Execution
 
-(This week focuses on binary analysis only, as requested. Symbolic execution is acknowledged in the title but not implemented.)
 
 1. Overview
 
