@@ -2,7 +2,7 @@ Week 2 — Hybrid RSA–AES Encryption System
 
 Secure Client–Server Communication**
 
-📌 Overview
+ Overview
 
 In this project, I implemented a hybrid cryptographic communication system that uses:
 
@@ -14,7 +14,7 @@ Python sockets to simulate sender/receiver communication over a network
 
 This mirrors the design principles used in real-world secure protocols such as TLS.
 
-🔒 Key Features
+ Key Features
 
 ✔ RSA 2048-bit key generation
 
@@ -28,7 +28,7 @@ This mirrors the design principles used in real-world secure protocols such as T
 
 ✔ Full hybrid encryption workflow
 
-📂 Project Structure
+ Project Structure
 /
 ├── generate_keys.py     # Generates private.pem & public.pem  :contentReference[oaicite:0]{index=0}
 ├── sender.py            # Encrypts + sends message           :contentReference[oaicite:1]{index=1}
@@ -36,7 +36,7 @@ This mirrors the design principles used in real-world secure protocols such as T
 ├── public.pem
 └── private.pem
 
-🧠 System Architecture
+ System Architecture
             +----------------------+
             |  generate_keys.py    |
             +----------+-----------+
@@ -59,7 +59,7 @@ This mirrors the design principles used in real-world secure protocols such as T
          +------------- TCP --------------+
                       Message
 
-🚀 How to Run
+ How to Run
 1️⃣ Generate RSA Keys
 python3 generate_keys.py
 
@@ -91,7 +91,7 @@ Enter a message to encrypt and send: Hello world!
 [Receiver] Connection from ('127.0.0.1', 53012)
 [Receiver] Decrypted message: Hello world!
 
-🔐 Cryptographic Workflow
+ Cryptographic Workflow
 1. RSA Key Generation
 
 Using generate_keys.py (2048-bit RSA keypair).
@@ -129,8 +129,8 @@ RSA-OAEP	Securely wraps the AES key
 Random session keys	Avoid key reuse, improve secrecy
 Nonces	Prevent replay attacks
 Separate private key storage	Prevents decryption compromise
-📘 Files Explained
-🔑 generate_keys.py
+ Files Explained
+ generate_keys.py
 
 Generates 2048-bit RSA keypair.
 
@@ -144,14 +144,14 @@ Encrypts message using AES-EAX and RSA-OAEP, then sends via TCP.
 
 sender
 
-📥 receiver.py
+ receiver.py
 
 Decrypts AES session key with RSA and verifies message integrity.
 
 
 receiver
 
-🧩 Reflection
+ Reflection
 
 Through this lab, I strengthened my understanding of hybrid encryption and secure communication. 
 Implementing RSA-OAEP with AES-EAX demonstrated how real-world systems balance performance, confidentiality, integrity, and key management. 
