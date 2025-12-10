@@ -83,6 +83,6 @@ Security analysis
 Reflections
 
 
-The best way to look at each week.md file would be selecting code for each of them due to the diagram not appearing correctly on the first option.
+The best way to look at each week.md files would be selecting code for each of them due to the diagram not appearing correctly on the first option.
 
 I have used chatGPT to help me structure my portfolio.
