@@ -69,7 +69,7 @@ week7.md
 week9.md
 
 
- Open each weekX.md file to read the detailed portfolio for that week.
+Open each weekX.md file to read the detailed portfolio for that week.
 Each file contains:
 
 Full explanations
@@ -82,4 +82,4 @@ Security analysis
 
 Reflections
 
-Professional-grade documentation
+I have used chatGPT to help me structure my portfolio
