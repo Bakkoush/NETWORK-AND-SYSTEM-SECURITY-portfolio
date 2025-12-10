@@ -153,6 +153,8 @@ receiver
 
 🧩 Reflection
 
-Through this lab, I strengthened my understanding of hybrid encryption and secure communication. Implementing RSA-OAEP with AES-EAX demonstrated how real-world systems balance performance, confidentiality, integrity, and key management. This exercise also highlighted the importance of secure key storage, nonce handling, and authenticated encryption in modern security architectures.
+Through this lab, I strengthened my understanding of hybrid encryption and secure communication. 
+Implementing RSA-OAEP with AES-EAX demonstrated how real-world systems balance performance, confidentiality, integrity, and key management. 
+This exercise also highlighted the importance of secure key storage, nonce handling, and authenticated encryption in modern security architectures.
 
 A longer reflection is included in my portfolio entry.
